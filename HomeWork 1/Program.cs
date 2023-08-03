@@ -46,4 +46,13 @@ else
 */
 //Task 8. Напишите программу, которая на вход принимает число (N),
 //а на выходе показывает все четные числа от 1 до N.
-
+/*
+Console.Write("Input a number: ");
+int num = Convert.ToInt32(Console.ReadLine());
+int current = 1;
+while(current <= num)
+{ if(current%2==0)
+    Console.Write(current + " ");
+    current++;
+}   
+*/
