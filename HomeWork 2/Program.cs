@@ -27,7 +27,7 @@ bool CorrectNum (int num)
 {
     if (num<100)
     {
-        Console.WriteLine("Third digit non");
+        Console.WriteLine("This number hase not a third digit");
         return false;
     }
     return true;
