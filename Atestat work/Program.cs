@@ -43,3 +43,18 @@ int N=Convert.ToInt32(Console.ReadLine());
 SumNumbersFromMToN(M, N, 0);
 */
 
+//Решение задачи № 68//
+/*
+int Akkerman (int num1, int num2)
+{
+    if(num1==0) return num2+1;
+    else if (num2==0) return Akkerman(num1-1, 1);
+    else return Akkerman (num1-1, Akkerman(num1, num2-1));
+}
+
+Console.WriteLine ("Input the first number ");
+int M=Convert.ToInt32(Console.ReadLine());
+Console.WriteLine ("Input the second number ");
+int N=Convert.ToInt32(Console.ReadLine());
+Console.WriteLine ($"Akkerman function of first number and second number is {Akkerman(M, N)}");
+*/
